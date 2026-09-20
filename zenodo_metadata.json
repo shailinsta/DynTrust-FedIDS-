@@ -1,0 +1,49 @@
+{
+  "title": "DynTrust-FedIDS++: Optimization-Based Trust Aggregation for Privacy-Aware Byzantine-Robust Federated Intrusion Detection under Data Drift",
+  "upload_type": "software",
+  "description": "DynTrust-FedIDS++ is a federated intrusion-detection framework that unifies optimisation-based adaptive aggregation (convex trust-weighted objective solved by FISTA), multi-criteria client trust estimation (performance, gradient consistency, activity, contribution history, 1-Wasserstein distributional residual), Gaussian differential privacy, and explicit evaluation under Byzantine attacks (sign-flip, Gaussian noise, ALIE) and severe class imbalance.\n\nThis release contains the corrected real-data experimental pipeline (Google Colab / Jupyter notebook) used in the accompanying manuscript. It evaluates seven aggregation rules on four real flow-level datasets—NF-CSE-CIC-IDS2018, NF-ToN-IoT, UNSW-NB15 and CIDDS-001—under heterogeneous non-IID partitions and a 30% Byzantine participation scenario.\n\nUnder 30% Byzantine + ALIE + mild DP (σ=0.05) the proposed optimisation aggregator attains balanced accuracy 0.646 and minority-class recall 0.942, outperforming classical robust aggregators. An explicit trust-module audit shows that current trust scores do not reliably separate honest from Byzantine clients; performance gains are driven primarily by the iterative FISTA aggregation step.\n\nDatasets are not redistributed; obtain them from the original public sources listed in the manuscript Data Availability Statement.",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "Federated Learning",
+    "Intrusion Detection",
+    "Byzantine Robustness",
+    "Trust-Aware Aggregation",
+    "Differential Privacy",
+    "Data Drift",
+    "Optimisation-based Aggregation",
+    "FISTA",
+    "Non-IID",
+    "Class Imbalance",
+    "ALIE",
+    "Network Security",
+    "IoT Security"
+  ],
+  "creators": [
+    {
+      "name": "REPLACE_LASTNAME, REPLACE_FIRSTNAME",
+      "affiliation": "REPLACE_AFFILIATION",
+      "orcid": ""
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/REPLACE_WITH_YOUR_USERNAME/DynTrust-FedIDS-plusplus",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Replace all REPLACE_* placeholders with real author names, affiliations, ORCIDs (only if verified), and the final GitHub repository URL before publishing on Zenodo. Do not invent ORCID IDs. After the DOI is minted, update README.md and the manuscript Data Availability Statement with the real DOI (format 10.5281/zenodo.xxxxxxx).",
+  "communities": [],
+  "grants": [],
+  "references": [
+    "McMahan et al., Communication-efficient learning of deep networks from decentralized data, AISTATS 2017",
+    "Blanchard et al., Machine learning with adversaries: Byzantine tolerant gradient descent, NeurIPS 2017",
+    "Yin et al., Byzantine-robust distributed learning, ICML 2018",
+    "Baruch et al., A little is enough: circumventing defenses for distributed learning, NeurIPS 2019",
+    "Abadi et al., Deep learning with differential privacy, CCS 2016"
+  ]
+}

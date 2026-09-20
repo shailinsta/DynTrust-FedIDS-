@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DynTrust-FedIDS++: Optimization-Based Trust Aggregation for Privacy-Aware Byzantine-Robust Federated Intrusion Detection under Data Drift"
+version: "1.0.0"
+date-released: "2025-09-20"
+license: MIT
+repository-code: "https://github.com/REPLACE_WITH_YOUR_USERNAME/DynTrust-FedIDS-plusplus"
+type: software
+authors:
+  - family-names: "REPLACE"
+    given-names: "Author1"
+  - family-names: "REPLACE"
+    given-names: "Author2"
+keywords:
+  - Federated Learning
+  - Intrusion Detection
+  - Byzantine Robustness
+  - Trust-Aware Aggregation
+  - Differential Privacy
+  - Data Drift
+  - Optimisation-based Aggregation
+  - FISTA
+  - Non-IID
+  - Class Imbalance
+abstract: >
+  DynTrust-FedIDS++ is a federated intrusion-detection framework that unifies
+  optimisation-based adaptive aggregation (FISTA), multi-criteria client trust
+  estimation, Gaussian differential privacy, and drift-aware residual analysis.
+  Evaluated on four real flow-level datasets (NF-CSE-CIC-IDS2018, NF-ToN-IoT,
+  UNSW-NB15, CIDDS-001) under 30% Byzantine participation with the ALIE attack.

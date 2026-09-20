@@ -1,0 +1,8 @@
+# Table 5. Effect of DP noise scale on the proposed method (30% Byzantine, ALIE)
+
+| σ (dp_sigma) | BAcc | Macro-F1 | Minority recall |
+| --- | --- | --- | --- |
+| 0.00 | 0.546 | 0.541 | 0.537 |
+| 0.05 | 0.646 | 0.574 | 0.942 |
+| 0.10 | 0.500 | 0.376 | 0.000 |
+| 0.30 | 0.500 | 0.376 | 0.000 |
