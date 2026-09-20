@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "DynTrust-FedIDS++: Optimization-Based Trust Aggregation for Privacy-Aware Byzantine-Robust Federated Intrusion Detection under Data Drift",
+    "upload_type": "software",
+    "description": "<p><strong>DynTrust-FedIDS++</strong> is a federated intrusion-detection framework that unifies:</p><ul><li>Optimisation-based adaptive aggregation (convex trust-weighted objective solved by FISTA)</li><li>Multi-criteria client trust estimation (performance, gradient consistency, activity, contribution history, 1-Wasserstein distributional residual)</li><li>Gaussian differential privacy on client updates</li><li>Explicit evaluation under Byzantine attacks (sign-flip, Gaussian noise, ALIE) and severe class imbalance</li></ul><p>This release contains the corrected <strong>real-data experimental pipeline</strong> (Google Colab / Jupyter notebook) used in the accompanying manuscript. It evaluates seven aggregation rules on four real flow-level datasets—NF-CSE-CIC-IDS2018, NF-ToN-IoT, UNSW-NB15 and CIDDS-001—under heterogeneous non-IID partitions and a 30% Byzantine participation scenario.</p><p>Under 30% Byzantine + ALIE + mild DP (σ=0.05) the proposed optimisation aggregator attains balanced accuracy <strong>0.646</strong> and minority-class recall <strong>0.942</strong>, outperforming classical robust aggregators (FedAvg, coordinate median, trimmed mean, Krum, Multi-Krum, static trust-weighted Krum). An explicit trust-module audit shows that current trust scores do not reliably separate honest from Byzantine clients; performance gains are driven primarily by the iterative FISTA aggregation step.</p><p><em>Datasets are not redistributed.</em> Obtain them from the original public sources listed in the manuscript Data Availability Statement.</p>",
+    "creators": [
+      {
+        "name": "REPLACE_LASTNAME, REPLACE_FIRSTNAME",
+        "affiliation": "REPLACE_AFFILIATION",
+        "orcid": ""
+      }
+    ],
+    "keywords": [
+      "Federated Learning",
+      "Intrusion Detection",
+      "Byzantine Robustness",
+      "Trust-Aware Aggregation",
+      "Differential Privacy",
+      "Data Drift",
+      "Optimisation-based Aggregation",
+      "FISTA",
+      "Non-IID",
+      "Class Imbalance",
+      "ALIE",
+      "Network Security",
+      "IoT Security"
+    ],
+    "version": "1.0.0",
+    "language": "eng",
+    "access_right": "open",
+    "license": "mit",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/REPLACE_WITH_YOUR_USERNAME/DynTrust-FedIDS-plusplus",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://github.com/REPLACE_WITH_YOUR_USERNAME/DynTrust-FedIDS-plusplus/releases/tag/v1.0.0",
+        "relation": "isIdenticalTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "references": [
+      "McMahan B, et al. Communication-efficient learning of deep networks from decentralized data. AISTATS 2017.",
+      "Blanchard P, et al. Machine learning with adversaries: Byzantine tolerant gradient descent. NeurIPS 2017.",
+      "Yin D, et al. Byzantine-robust distributed learning: towards optimal statistical rates. ICML 2018.",
+      "Baruch G, Baruch M, Goldberg Y. A little is enough: circumventing defenses for distributed learning. NeurIPS 2019.",
+      "Abadi M, et al. Deep learning with differential privacy. ACM CCS 2016."
+    ],
+    "notes": "Replace all REPLACE_* placeholders with real author names, affiliations, verified ORCIDs only, and the final GitHub repository URL before publishing. Do not invent ORCID IDs. After Zenodo assigns the DOI, update README.md badge and the manuscript Data Availability Statement.",
+    "communities": [],
+    "grants": [],
+    "subjects": [
+      {
+        "term": "Machine learning",
+        "identifier": "http://id.loc.gov/authorities/subjects/sh85079324",
+        "scheme": "url"
+      },
+      {
+        "term": "Computer security",
+        "identifier": "http://id.loc.gov/authorities/subjects/sh87002293",
+        "scheme": "url"
+      }
+    ]
+  }
+}

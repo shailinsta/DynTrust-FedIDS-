@@ -1,0 +1,33 @@
+{
+  "_comment": "Fill this file AFTER Zenodo publishes the deposit and assigns a real DOI. Do not invent a DOI.",
+  "project": "DynTrust-FedIDS++",
+  "version": "1.0.0",
+  "github": {
+    "repository_name": "DynTrust-FedIDS-plusplus",
+    "repository_url": "https://github.com/REPLACE_WITH_YOUR_USERNAME/DynTrust-FedIDS-plusplus",
+    "release_tag": "v1.0.0",
+    "release_url": "https://github.com/REPLACE_WITH_YOUR_USERNAME/DynTrust-FedIDS-plusplus/releases/tag/v1.0.0"
+  },
+  "zenodo": {
+    "deposit_title": "DynTrust-FedIDS++: Optimization-Based Trust Aggregation for Privacy-Aware Byzantine-Robust Federated Intrusion Detection under Data Drift",
+    "record_url": "https://zenodo.org/records/REPLACE_WITH_RECORD_ID",
+    "doi": "10.5281/zenodo.REPLACE_WITH_DOI_NUMBER",
+    "doi_url": "https://doi.org/10.5281/zenodo.REPLACE_WITH_DOI_NUMBER",
+    "badge_markdown": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.REPLACE_WITH_DOI_NUMBER.svg)](https://doi.org/10.5281/zenodo.REPLACE_WITH_DOI_NUMBER)",
+    "badge_html": "<a href=\"https://doi.org/10.5281/zenodo.REPLACE_WITH_DOI_NUMBER\"><img src=\"https://zenodo.org/badge/DOI/10.5281/zenodo.REPLACE_WITH_DOI_NUMBER.svg\" alt=\"DOI\"></a>"
+  },
+  "manuscript": {
+    "data_availability_statement_snippet": "The experimental pipeline and source code for DynTrust-FedIDS++ are archived at Zenodo: https://doi.org/10.5281/zenodo.REPLACE_WITH_DOI_NUMBER",
+    "citation_bibtex": "@software{dyntrust_fedids_plusplus_v1,\n  title   = {DynTrust-FedIDS++: Optimization-Based Trust Aggregation for Privacy-Aware Byzantine-Robust Federated Intrusion Detection under Data Drift},\n  author  = {REPLACE_AUTHORS},\n  year    = {2025},\n  version = {1.0.0},\n  doi     = {10.5281/zenodo.REPLACE_WITH_DOI_NUMBER},\n  url     = {https://doi.org/10.5281/zenodo.REPLACE_WITH_DOI_NUMBER}\n}"
+  },
+  "checklist_after_doi": [
+    "Copy the real DOI from Zenodo (format 10.5281/zenodo.xxxxxxx)",
+    "Paste DOI into this file replacing all REPLACE_WITH_DOI_NUMBER",
+    "Paste Zenodo record URL replacing REPLACE_WITH_RECORD_ID",
+    "Update README.md with the badge_markdown line",
+    "Update CITATION.cff doi field",
+    "Update manuscript Data Availability Statement with doi_url",
+    "Commit and push README + CITATION changes to GitHub",
+    "Send GitHub URL + Zenodo URL + DOI to the corresponding author"
+  ]
+}
