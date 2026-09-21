@@ -10,6 +10,7 @@ https://colab.research.google.com/drive/1MSswW6RsLCq0Dsc8l4mb4uhzSqbinO9P?usp=sh
 Authors
 Shailendra Mishra (Corresponding author) – Majmaah University
 Megha Rathi – Jaypee Institute of Information Technology
+Saumya Mishra-Department of Computer Science and Engineering, MNNIT, Allahabad, India
 Saumitya Srivastava – Jaypee Institute of Information Technology
 
 # Figures directory
